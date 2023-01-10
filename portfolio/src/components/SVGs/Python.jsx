@@ -1,6 +1,6 @@
 export default function PythonIcon ({dimensions}) {
     return (
-        <div className="icon-wrapper">
+        <div>
             <svg viewBox="0 0 128 128" width={dimensions} height={dimensions}>
             <linearGradient id="python-original-a" gradientUnits="userSpaceOnUse" x1="70.252" y1="1237.476" x2="170.659" y2="1151.089" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stopColor="#5A9FD4"></stop><stop offset="1" stopColor="#306998"></stop></linearGradient>
             

@@ -5,7 +5,7 @@ import Landing from './components/sections/Landing';
 
 function App() {
   return (
-    <div className="text-white bg-white">
+    <div className="text-white bg-white w-screen">
       <Landing />
     </div>
   );

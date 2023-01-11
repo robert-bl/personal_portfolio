@@ -9,7 +9,6 @@ export default function Header () {
     useEffect(() => {
         const handleResize = () => {
             setWidth(window.innerWidth)
-            console.log(width)
         }
         window.addEventListener("resize", handleResize)
 

@@ -26,69 +26,75 @@ export default function Skills () {
         <div>
             <div id='skills'  className="h-16"></div>
             <div className="bg-lit sm:w-full md:w-4/5 mx-auto mt-12 p-4 border-t-4 border-medgry">
-                <div className="flex gap-4">
+                <div>
                     <div>Languages</div>
-                    <div className={hoverWrapper}>
-                        <div className={nameHover}>JavaScript</div>
-                        <JavaScriptIcon dimensions={dimensions}/>
-                    </div>
-                    <div className={hoverWrapper}>
-                        <div className={nameHover}>Python</div>
-                        <PythonIcon dimensions={dimensions}/>
-                    </div>
-                    <div className={hoverWrapper}>
-                        <div className={nameHover}>HTML</div>
-                        <HTMLIcon dimensions={dimensions}/>
-                    </div>
-                    <div className={hoverWrapper}>
-                        <div className={nameHover}>CSS</div>
-                        <CSSIcon dimensions={dimensions}/>
-                    </div>
-                </div>
-                <div className="flex gap-4">
-                    <div>Libraries and Frameworks</div>
-                    <div className={hoverWrapper}>
-                        <div className={nameHover}>Postgres</div>
-                        <SQLIcon dimensions={dimensions}/>
-                    </div>
-                    <div className={hoverWrapper}>
-                        <div className={nameHover}>React</div>
-                        <ReactIcon dimensions={dimensions}/>
-                    </div>
-                    <div className={hoverWrapper}>
-                        <div className={nameHover}>Django</div>
-                        <DjangoIcon dimensions={dimensions}/>
-                    </div>
-                    <div className={hoverWrapper}>
-                        <div className={nameHover}>Sequelize</div>
-                        <SequelizeIcon dimensions={dimensions}/>
-                    </div>
-                    <div className={hoverWrapper}>
-                        <div className={nameHover}>Express</div>
-                        <ExpressIcon dimensions={dimensions}/>
-                    </div>
-                    <div className={hoverWrapper}>
-                        <div className={nameHover}>Tailwind</div>
-                        <TailwindIcon dimensions={dimensions}/>
+                    <div className="flex gap-4 flex-wrap">
+                        <div className={hoverWrapper}>
+                            <div className={nameHover}>JavaScript</div>
+                            <JavaScriptIcon dimensions={dimensions}/>
+                        </div>
+                        <div className={hoverWrapper}>
+                            <div className={nameHover}>Python</div>
+                            <PythonIcon dimensions={dimensions}/>
+                        </div>
+                        <div className={hoverWrapper}>
+                            <div className={nameHover}>HTML</div>
+                            <HTMLIcon dimensions={dimensions}/>
+                        </div>
+                        <div className={hoverWrapper}>
+                            <div className={nameHover}>CSS</div>
+                            <CSSIcon dimensions={dimensions}/>
+                        </div>
                     </div>
                 </div>
-                <div className="flex gap-4">
-                    <div>Developer Tools</div>
-                    <div className={hoverWrapper}>
-                        <div className={nameHover}>Node.js</div>
-                        <NodeIcon dimensions={dimensions}/>
+                <div>
+                <div>Libraries and Frameworks</div>
+                    <div className="flex gap-4">
+                        <div className={hoverWrapper}>
+                            <div className={nameHover}>Postgres</div>
+                            <SQLIcon dimensions={dimensions}/>
+                        </div>
+                        <div className={hoverWrapper}>
+                            <div className={nameHover}>React</div>
+                            <ReactIcon dimensions={dimensions}/>
+                        </div>
+                        <div className={hoverWrapper}>
+                            <div className={nameHover}>Django</div>
+                            <DjangoIcon dimensions={dimensions}/>
+                        </div>
+                        <div className={hoverWrapper}>
+                            <div className={nameHover}>Sequelize</div>
+                            <SequelizeIcon dimensions={dimensions}/>
+                        </div>
+                        <div className={hoverWrapper}>
+                            <div className={nameHover}>Express</div>
+                            <ExpressIcon dimensions={dimensions}/>
+                        </div>
+                        <div className={hoverWrapper}>
+                            <div className={nameHover}>Tailwind</div>
+                            <TailwindIcon dimensions={dimensions}/>
+                        </div>
                     </div>
-                    <div className={hoverWrapper}>
-                        <div className={nameHover}>VSCode</div>
-                        <VSCodeIcon dimensions={dimensions}/>
-                    </div>
-                    <div className={hoverWrapper}>
-                        <div className={nameHover}>GitHub</div>
-                        <GitHubIcon dimensions={dimensions}/>
-                    </div>
-                    <div className={hoverWrapper}>
-                        <div className={nameHover}>Git</div>
-                        <GitIcon dimensions={dimensions}/>
+                </div>
+                <div>
+                <div>Developer Tools</div>
+                    <div className="flex gap-4">
+                        <div className={hoverWrapper}>
+                            <div className={nameHover}>Node.js</div>
+                            <NodeIcon dimensions={dimensions}/>
+                        </div>
+                        <div className={hoverWrapper}>
+                            <div className={nameHover}>VSCode</div>
+                            <VSCodeIcon dimensions={dimensions}/>
+                        </div>
+                        <div className={hoverWrapper}>
+                            <div className={nameHover}>GitHub</div>
+                            <GitHubIcon dimensions={dimensions}/>
+                        </div>
+                        <div className={hoverWrapper}>
+                            <div className={nameHover}>Git</div>
+                            <GitIcon dimensions={dimensions}/>
+                        </div>
                     </div>
                 </div>
             </div>

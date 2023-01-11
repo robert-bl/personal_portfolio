@@ -7,7 +7,7 @@ export default function SnekSnak () {
     let dimensions = '30px'
 
     return (
-        <div className="w-4/5">
+        <div className="w-11/12">
             <div className='bg-white'>
                 <div>SnekSnak</div>
                 <div>Snake browser game</div>

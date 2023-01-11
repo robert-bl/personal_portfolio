@@ -1,6 +1,6 @@
 import { useState } from "react"
-import PythonIcon from "../SVGs/Python"
 import { HashLink } from 'react-router-hash-link'
+import { TiThMenu } from "react-icons/ti";
 
 export default function AltNav () {
 
@@ -15,7 +15,9 @@ export default function AltNav () {
 
     return (
         <div className="relative cursor-poiner">
-            <div className='cursor-poiner border border-white' onClick={toggleNav}><PythonIcon dimensions={dimensions}/></div>
+            <div className='cursor-poiner' onClick={toggleNav}>
+                <TiThMenu size={20}/>
+            </div>
             {navOpen ? 
             <div className="absolute flex flex-col bg-drkgry text-white w-36 right-0">
                 <HashLink smooth to="/#about-me" onClick={toggleNav} className={linkStyle}>About Me</HashLink>

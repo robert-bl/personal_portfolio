@@ -25,10 +25,10 @@ export default function Skills () {
     return (
         <div>
             <div id='skills'  className="h-16"></div>
-            <div className="bg-lit sm:w-full md:w-4/5 mx-auto mt-12 p-4 border-t-4 border-medgry">
+            <div className="bg-lit sm:w-full md:w-4/5 mx-auto mt-12 p-8 border-t-4 border-medgry text-center">
                 <div>
-                    <div>Languages</div>
-                    <div className="flex gap-4 flex-wrap">
+                    <div className="mt-8 mb-2">Languages</div>
+                    <div className="flex gap-4 flex-wrap justify-center">
                         <div className={hoverWrapper}>
                             <div className={nameHover}>JavaScript</div>
                             <JavaScriptIcon dimensions={dimensions}/>
@@ -48,8 +48,8 @@ export default function Skills () {
                     </div>
                 </div>
                 <div>
-                <div>Libraries and Frameworks</div>
-                    <div className="flex gap-4">
+                <div className="mt-8 mb-2">Libraries and Frameworks</div>
+                    <div className="flex gap-4 flex-wrap justify-center">
                         <div className={hoverWrapper}>
                             <div className={nameHover}>Postgres</div>
                             <SQLIcon dimensions={dimensions}/>
@@ -77,8 +77,8 @@ export default function Skills () {
                     </div>
                 </div>
                 <div>
-                <div>Developer Tools</div>
-                    <div className="flex gap-4">
+                <div className="mt-8 mb-2">Developer Tools</div>
+                    <div className="flex gap-4 flex-wrap justify-center">
                         <div className={hoverWrapper}>
                             <div className={nameHover}>Node.js</div>
                             <NodeIcon dimensions={dimensions}/>

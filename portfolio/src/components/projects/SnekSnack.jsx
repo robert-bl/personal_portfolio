@@ -9,7 +9,7 @@ export default function SnekSnak () {
     return (
         <div className="w-11/12">
             <div className='bg-white'>
-                <div>SnekSnak</div>
+                <div>SnekSnack</div>
                 <div>Snake browser game</div>
             </div>
             <div className="relative bg-sneksnak bg-contain aspect-square text-drkgry">

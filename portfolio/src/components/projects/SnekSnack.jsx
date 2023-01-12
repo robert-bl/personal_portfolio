@@ -16,12 +16,12 @@ export default function SnekSnak () {
     let dimensions = '30px'
 
     return (
-        <div className="w-full shadow-2xl">
+        <div className="w-full shadow-2xl hover:scale-105 duration-300" onClick={toggleLinks}>
             <div className='bg-drkgry text-lit p-2'>
                 <div className='text-xl'>SnekSnack</div>
                 <div>Snake browser game</div>
             </div>
-            <div className="relative bg-sneksnak bg-contain bg-bottom aspect-[4/3] text-drkgry" onClick={toggleLinks}>
+            <div className="relative bg-sneksnak bg-contain bg-bottom aspect-[4/3] text-drkgry">
                 <div className='absolute flex gap-1 bg-white rounded-tl-md bottom-0 right-0 p-2'>
                     <JavaScriptIcon dimensions={dimensions}/>
                     <HTMLIcon dimensions={dimensions}/>
@@ -43,7 +43,6 @@ export default function SnekSnak () {
                             </a>
                         </div>
                     </div>
-                    <div></div>
                 </div>
                 : null
                 }

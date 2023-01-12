@@ -20,7 +20,7 @@ export default function Skills () {
 
     // let nameHover = 'text-black text-opacity-0 bg-opacity-0 hover:text-opacity-100 hover:bg-opacity-90 rounded-l-full rounded-r-full absolute w-fit bg-white duration-300 cursor-none text-center top-8 p-1 z-10'
 
-    let nameHover = 'text-black text-opacity-0 bg-opacity-0 border-opacity-0 hover:text-opacity-100 hover:bg-opacity-80 hover:border-opacity-70 rounded-full absolute w-24 h-24 bg-white duration-300 text-center pt-8 z-10 border-2 border-black cursor-default'
+    let nameHover = 'text-black text-opacity-0 bg-opacity-0 border-opacity-0 hover:text-opacity-100 hover:bg-opacity-80 hover:border-opacity-70 rounded-full absolute w-24 h-24 bg-white duration-500 text-center pt-8 z-10 border-2 border-black cursor-default'
 
     let hoverWrapper = 'relative flex justify-center items-center rounded-full bg-white w-24 h-24 border-2 border-drkgry'
 

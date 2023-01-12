@@ -17,6 +17,10 @@ module.exports = {
         drkblu: "#2E465A",
         medblu: "#5E768C",
         lit: "#A3AF9F"
+      },
+      fontFamily: {
+        serif: ['Vollkorn', 'serif'],
+        sans: ['Titillium Web', 'sans-serif']
       }
     },
   },

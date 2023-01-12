@@ -18,17 +18,20 @@ export default function Skills () {
 
     let dimensions = '60px'
 
-    let nameHover = 'text-black text-opacity-0 bg-opacity-0 hover:text-opacity-100 hover:bg-opacity-90 rounded-l-full rounded-r-full absolute w-fit bg-white duration-300 cursor-none text-center top-1/4 p-1 z-10'
+    // let nameHover = 'text-black text-opacity-0 bg-opacity-0 hover:text-opacity-100 hover:bg-opacity-90 rounded-l-full rounded-r-full absolute w-fit bg-white duration-300 cursor-none text-center top-8 p-1 z-10'
 
-    let hoverWrapper = 'relative flex justify-center'
+    let nameHover = 'text-black text-opacity-0 bg-opacity-0 border-opacity-0 hover:text-opacity-100 hover:bg-opacity-80 hover:border-opacity-70 rounded-full absolute w-24 h-24 bg-white duration-300 text-center pt-8 z-10 border-2 border-black cursor-default'
+
+    let hoverWrapper = 'relative flex justify-center items-center rounded-full bg-white w-24 h-24 border-2 border-drkgry'
 
     return (
         <div>
             <div id='skills'  className="h-16"></div>
-            <div className="bg-lit sm:w-full md:w-4/5 mx-auto mt-12 p-8 border-t-4 border-medgry text-center">
-                <div>
-                    <div className="mt-8 mb-2">Languages</div>
-                    <div className="flex gap-4 flex-wrap justify-center">
+            <div className="bg-lit sm:w-full md:w-4/5 mx-auto mt-12 p-4 border-t-4 border-b-4 border-medgry">
+                <div className="font-serif text-2xl mb-6">Skills</div>
+                <div className="text-center">
+                    <div className="mt-8 mb-4 py-2 bg-drkgry text-lit">Languages</div>
+                    <div className="flex gap-4 flex-wrap justify-center p-1">
                         <div className={hoverWrapper}>
                             <div className={nameHover}>JavaScript</div>
                             <JavaScriptIcon dimensions={dimensions}/>
@@ -47,11 +50,11 @@ export default function Skills () {
                         </div>
                     </div>
                 </div>
-                <div>
-                <div className="mt-8 mb-2">Libraries and Frameworks</div>
-                    <div className="flex gap-4 flex-wrap justify-center">
+                <div className="text-center">
+                <div className="mt-8 mb-4 py-2 bg-drkgry text-lit">Libraries and Frameworks</div>
+                    <div className="flex gap-4 flex-wrap justify-center p-1">
                         <div className={hoverWrapper}>
-                            <div className={nameHover}>Postgres</div>
+                            <div className={nameHover}>PostgreSQL</div>
                             <SQLIcon dimensions={dimensions}/>
                         </div>
                         <div className={hoverWrapper}>
@@ -76,9 +79,9 @@ export default function Skills () {
                         </div>
                     </div>
                 </div>
-                <div>
-                <div className="mt-8 mb-2">Developer Tools</div>
-                    <div className="flex gap-4 flex-wrap justify-center">
+                <div className="text-center">
+                <div className="mt-8 mb-4 py-2 bg-drkgry text-lit">Developer Tools</div>
+                    <div className="flex gap-4 flex-wrap justify-center p-1">
                         <div className={hoverWrapper}>
                             <div className={nameHover}>Node.js</div>
                             <NodeIcon dimensions={dimensions}/>

@@ -17,8 +17,8 @@ export default function Bhere () {
 
     return (
         <div className="w-full shadow-2xl hover:scale-105 duration-300" onClick={toggleLinks}>
-            <div className='bg-drkgry text-lit p-2'>
-                <div>B{'('}HERE{')'}</div>
+            <div className='bg-drkgry text-white p-2'>
+                <div className='text-xl font-serif'>B{'('}HERE{')'}</div>
                 <div>App for finding breweres in your area</div>
             </div>
             <div className="relative bg-bhere bg-bottom aspect-[4/3] text-drkgry">

@@ -1,4 +1,4 @@
-export default function SQLIcon ({dimensions}) {
+export default function PostgreSQLIcon ({dimensions}) {
     return (
         <div>
             <svg viewBox="0 0 128 128" height={dimensions} width={dimensions}>

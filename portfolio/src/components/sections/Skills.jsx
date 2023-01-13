@@ -9,7 +9,7 @@ import NodeIcon from "../SVGs/Node"
 import PythonIcon from "../SVGs/Python"
 import ReactIcon from "../SVGs/React"
 import SequelizeIcon from "../SVGs/Sequelize"
-import SQLIcon from "../SVGs/SQL"
+import PostgreSQLIcon from "../SVGs/PostgreSQL"
 import TailwindIcon from "../SVGs/Tailwind"
 import VSCodeIcon from "../SVGs/VSCode"
 
@@ -55,7 +55,7 @@ export default function Skills () {
                     <div className="flex gap-4 flex-wrap justify-center p-1">
                         <div className={hoverWrapper}>
                             <div className={nameHover}>PostgreSQL</div>
-                            <SQLIcon dimensions={dimensions}/>
+                            <PostgreSQLIcon dimensions={dimensions}/>
                         </div>
                         <div className={hoverWrapper}>
                             <div className={nameHover}>React</div>

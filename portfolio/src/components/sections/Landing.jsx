@@ -11,10 +11,9 @@ export default function Landing () {
     return (
         <div className='relative'>
             <Header/>
+            <div className='h-8'></div>
             <AboutMe/>
-            {/* <div className='h-80'></div> */}
             <Skills/>
-            {/* <div className='h-80'></div> */}
             <Portfolio/>
             <Contact/>
             <Footer/>

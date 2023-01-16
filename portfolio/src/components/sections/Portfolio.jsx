@@ -7,10 +7,10 @@ export default function Portfolio () {
 
     return (
         <div>
-            <div id='projects' className="h-16"></div>
-            <div className="mx-auto bg-lit sm:w-full md:w-4/5 mt-12 p-4 border-t-4 border-b-4 border-medgry">
-                <div className="font-serif text-2xl mb-6">Projects</div>
-                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 justify-items-center">
+            <div id='projects' className="h-10"></div>
+            <div className="mx-auto bg-lit sm:w-full md:w-4/5 mt-12 border-t-4 border-b-4 border-medgry">
+                <div className="font-serif bg-drkgry text-offw text-2xl p-4 border-b-4 border-medgry mb-6">Projects</div>
+                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 justify-items-center p-4">
                     <PakRat />
                     <SnekSnak/>
                     <MyPlates/>

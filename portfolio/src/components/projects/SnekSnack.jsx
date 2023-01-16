@@ -17,7 +17,7 @@ export default function SnekSnak () {
 
     return (
         <div className="w-full shadow-2xl hover:scale-105 duration-300 border-2 border-drkgry" onClick={toggleLinks}>
-            <div className='bg-drkgry text-white p-2'>
+            <div className='bg-drkgry p-2'>
                 <div className='text-xl font-serif'>SnekSnack</div>
                 <div>Snake browser game</div>
             </div>
@@ -47,7 +47,7 @@ export default function SnekSnak () {
                 : null
                 }
             </div>
-            <div className='bg-drkgry text-lit p-2'>
+            <div className='bg-drkgry p-2'>
                 <div>Game Logic</div>
                 <div>DOM Manipulation</div>
             </div>

@@ -24,7 +24,6 @@ export default function AltNav () {
                 <HashLink smooth to="/#skills" onClick={toggleNav} className={linkStyle}>Skills</HashLink>
                 <HashLink smooth to="/#projects" onClick={toggleNav} className={linkStyle}>Projects</HashLink>
                 <HashLink smooth to="/#contact" onClick={toggleNav} className={linkStyle}>Contact</HashLink>
-                <div className={linkStyle}><a href='https://docs.google.com/document/d/1zuuv9UEogvM07LQaUgZRUY2whRVcs9tikghB7UfY8iU/edit' target='_blank'>Resume</a></div>
             </div>
             :null}
         </div>

@@ -18,8 +18,8 @@ export default function PakRat () {
     let dimensions = '30px'
 
     return (
-        <div className="w-full shadow-2xl hover:scale-105 duration-300 border-2 border-drkgry" onClick={toggleLinks}>
-            <div className='bg-drkgry text-white p-2'>
+        <div className="w-full shadow-2xl hover:scale-105 duration-300 border-2 border-drkgry text-offw" onClick={toggleLinks}>
+            <div className='bg-drkgry p-2'>
                 <div className='text-xl font-serif'>PakRat</div>
                 <div>Packing list app</div>
             </div>
@@ -51,7 +51,7 @@ export default function PakRat () {
                 : null
                 }
             </div>
-            <div className='bg-drkgry text-lit p-2'>
+            <div className='bg-drkgry p-2'>
                 <div>Bundled axios API calls</div>
                 <div>Dynamic Form and Rendering</div>
             </div>

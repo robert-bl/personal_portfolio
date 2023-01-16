@@ -17,7 +17,8 @@ module.exports = {
         medgry: "#3F4A3C",
         drkblu: "#2E465A",
         medblu: "#5E768C",
-        lit: "#A3AF9F"
+        lit: "#A3AF9F",
+        offw: "#E8E6D5"
       },
       fontFamily: {
         serif: ['Vollkorn', 'serif'],

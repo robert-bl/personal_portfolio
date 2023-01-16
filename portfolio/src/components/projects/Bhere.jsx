@@ -17,7 +17,7 @@ export default function Bhere () {
 
     return (
         <div className="w-full shadow-2xl hover:scale-105 duration-300 border-2 border-drkgry" onClick={toggleLinks}>
-            <div className='bg-drkgry text-white p-2'>
+            <div className='bg-drkgry p-2'>
                 <div className='text-xl font-serif'>B{'('}HERE{')'}</div>
                 <div>App for finding breweres in your area</div>
             </div>
@@ -47,7 +47,7 @@ export default function Bhere () {
                 : null
                 }
             </div>
-            <div className='bg-drkgry text-lit p-2'>
+            <div className='bg-drkgry p-2'>
                 <div>Axios API Calls</div>
                 <div>React Router</div>
             </div>

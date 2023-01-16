@@ -18,13 +18,13 @@ export default function MyPlates () {
     let dimensions = '30px'
 
     return (
-        <div className="w-full shadow-2xl hover:scale-105 duration-300 border-2 border-drkgry" onClick={toggleLinks}>
-            <div className='bg-drkgry p-2'>
+        <div className="w-full shadow-2xl hover:scale-105 duration-300" onClick={toggleLinks}>
+            <div className='bg-c5 p-2'>
                 <div className='text-xl font-serif'>MyPlates</div>
                 <div>Recipe sharing app</div>
             </div>
-            <div className="relative bg-myplates bg-contain bg-bottom aspect-[4/3] text-drkgry">
-                <div className='absolute flex gap-1 bg-white rounded-tl-md bottom-0 right-0 p-2'>
+            <div className="relative bg-myplates bg-contain bg-bottom bg-no-repeat aspect-[4/3] text-c5">
+                <div className='absolute flex gap-1 bg-white rounded-tl-md bottom-0 right-0 p-2 border-t border-r border-l border-c6'>
                 <JavaScriptIcon dimensions={dimensions}/>
                 <ReactIcon dimensions={dimensions}/>
                 <SequelizeIcon dimensions={dimensions}/>
@@ -50,7 +50,7 @@ export default function MyPlates () {
                 : null
                 }
             </div>
-            <div className='bg-drkgry p-2'>
+            <div className='bg-c5 p-2'>
                 <div>PERN Stack</div>
                 <div>Full CRUD</div>
             </div>

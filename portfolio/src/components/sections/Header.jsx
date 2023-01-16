@@ -18,7 +18,7 @@ export default function Header () {
     },[])
     
     return (
-    <div className="fixed z-20 top-0 w-full flex justify-between p-4 md:p-6 bg-drkgry h-1/12 border-b-8 border-medblu">
+    <div className="fixed z-20 top-0 w-full flex justify-between p-4 md:p-6 bg-c5 h-1/12">
         <div className="font-serif text-2xl">Robert Buskirk-Lechner</div>
         {width <=640 ? <AltNav /> : <NavBar />}
     </div>

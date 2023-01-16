@@ -13,12 +13,31 @@ module.exports = {
         'prof': "url('/src/assets/prof.png')"
       },
       colors: {
-        drkgry: "#2B2E2A",
-        medgry: "#3F4A3C",
-        drkblu: "#2E465A",
-        medblu: "#5E768C",
-        lit: "#A3AF9F",
-        offw: "#E8E6D5"
+        // //font
+        // c1: "#FFFFFF",
+        // //card
+        // c2: "#A8C7E1",
+        // c3: "#8CA19D",
+        // //grad start
+        // c4: "#9CADBC",
+        // //header
+        // c5: "#2F4858",
+        // //border
+        // c6: "#002114"
+
+                //font
+                c1: "#FFF6E7",
+                //card
+                c2: "#FFFFFF",
+                //background
+                c3: "#DFE0DF",
+                //grad start
+                c4: "#7E919E",
+                //header
+                c5: "#2F4858",
+                //border
+                c6: "#2F4858"
+
       },
       fontFamily: {
         serif: ['Roboto', 'sans-serif'],

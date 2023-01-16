@@ -11,7 +11,7 @@ export default function AltNav () {
     }
 
     let dimensions = '20px'
-    let linkStyle = 'bg-lit h-10 pt-2 pl-2 border border-drkgry text-drkgry'
+    let linkStyle = 'bg-c2 h-10 pt-2 pl-2 border border-c5 text-c5'
 
     return (
         <div className="relative cursor-poiner">
@@ -19,7 +19,7 @@ export default function AltNav () {
                 <TiThMenu size={25}/>
             </div>
             {navOpen ? 
-            <div className="absolute flex flex-col bg-drkgry text-white w-36 right-0 top-8 border border-drkgry">
+            <div className="absolute flex flex-col bg-c5 text-white w-36 right-0 top-8 border border-c5">
                 <HashLink smooth to="/#about-me" onClick={toggleNav} className={linkStyle}>About Me</HashLink>
                 <HashLink smooth to="/#skills" onClick={toggleNav} className={linkStyle}>Skills</HashLink>
                 <HashLink smooth to="/#projects" onClick={toggleNav} className={linkStyle}>Projects</HashLink>

@@ -20,7 +20,7 @@ export default function MyPlates () {
     return (
         <div className="w-full shadow-2xl hover:scale-105 duration-300 border-2 border-drkgry" onClick={toggleLinks}>
             <div className='bg-drkgry p-2'>
-                <div className='text-xl font-serif'>MyPlate</div>
+                <div className='text-xl font-serif'>MyPlates</div>
                 <div>Recipe sharing app</div>
             </div>
             <div className="relative bg-myplates bg-contain bg-bottom aspect-[4/3] text-drkgry">

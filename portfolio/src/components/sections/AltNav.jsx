@@ -23,7 +23,7 @@ export default function AltNav () {
                 <HashLink smooth to="/#about-me" onClick={toggleNav} className={linkStyle}>About Me</HashLink>
                 <HashLink smooth to="/#skills" onClick={toggleNav} className={linkStyle}>Skills</HashLink>
                 <HashLink smooth to="/#projects" onClick={toggleNav} className={linkStyle}>Projects</HashLink>
-                <HashLink smooth to="/#contact" onClick={toggleNav} className={linkStyle}>Contact</HashLink>
+                <HashLink smooth to="/#contact" onClick={toggleNav} className={linkStyle}>Connect</HashLink>
             </div>
             :null}
         </div>

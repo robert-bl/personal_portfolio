@@ -21,7 +21,7 @@ module.exports = {
         offw: "#E8E6D5"
       },
       fontFamily: {
-        serif: ['Vollkorn', 'serif'],
+        serif: ['Roboto', 'sans-serif'],
         sans: ['Titillium Web', 'sans-serif']
       }
     },

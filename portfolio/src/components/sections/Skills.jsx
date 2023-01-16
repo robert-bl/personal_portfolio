@@ -26,11 +26,11 @@ export default function Skills () {
 
     return (
         <div>
-            <div id='skills'  className="h-10"></div>
-            <div className="bg-lit sm:w-full md:w-4/5 mx-auto mt-12 border-t-4 border-b-4 border-medgry">
+            <div id='skills'  className="h-6 md:h-10"></div>
+            <div className="bg-lit sm:w-full md:w-4/5 mx-auto mt-12 border-t-4 border-b-4 border-medgry pb-4">
             <div className="font-serif bg-drkgry text-2xl p-4 border-b-4 border-medgry mb-6">Skills</div>
                 <div className="text-center">
-                    <div className="mt-8 mb-4 py-2 bg-drkgry">Languages</div>
+                    <div className="mt-8 m-4 py-2 bg-drkgry">Languages</div>
                     <div className="flex gap-4 flex-wrap justify-center p-1">
                         <div className={hoverWrapper}>
                             <div className={nameHover}>JavaScript</div>
@@ -51,7 +51,7 @@ export default function Skills () {
                     </div>
                 </div>
                 <div className="text-center">
-                <div className="mt-8 mb-4 py-2 bg-drkgry">Libraries and Frameworks</div>
+                <div className="mt-8 m-4 py-2 bg-drkgry">Libraries and Frameworks</div>
                     <div className="flex gap-4 flex-wrap justify-center p-1">
                         <div className={hoverWrapper}>
                             <div className={nameHover}>PostgreSQL</div>
@@ -80,7 +80,7 @@ export default function Skills () {
                     </div>
                 </div>
                 <div className="text-center">
-                <div className="mt-8 mb-4 py-2 bg-drkgry">Developer Tools</div>
+                <div className="mt-8 m-4 py-2 bg-drkgry">Developer Tools</div>
                     <div className="flex gap-4 flex-wrap justify-center p-1">
                         <div className={hoverWrapper}>
                             <div className={nameHover}>Node.js</div>

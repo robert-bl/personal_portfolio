@@ -8,7 +8,7 @@ export default function NavBar () {
             <HashLink smooth to="/#about-me">About Me</HashLink>
             <HashLink smooth to="/#skills">Skills</HashLink>
             <HashLink smooth to="/#projects">Projects</HashLink>
-            <HashLink smooth to="/#contact">Contact</HashLink>
+            <HashLink smooth to="/#contact">Connect</HashLink>
         </div>
     )
 }

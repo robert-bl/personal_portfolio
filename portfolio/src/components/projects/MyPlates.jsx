@@ -2,6 +2,7 @@ import JavaScriptIcon from "../SVGs/JavaScript"
 import ReactIcon from "../SVGs/React"
 import SequelizeIcon from "../SVGs/Sequelize"
 import ExpressIcon from "../SVGs/Express"
+import PostgreSQLIcon from "../SVGs/PostgreSQL"
 import { AiOutlineLink, AiOutlineGithub } from "react-icons/ai"
 
 import { useState } from "react"
@@ -21,14 +22,15 @@ export default function MyPlates () {
         <div className="w-full shadow-2xl hover:scale-105 duration-300" onClick={toggleLinks}>
             <div className='bg-c5 p-2'>
                 <div className='text-xl font-serif'>MyPlates</div>
-                <div>Recipe sharing app</div>
+                <div>Post, find, and review recipes</div>
             </div>
             <div className="relative bg-myplates bg-contain bg-bottom bg-no-repeat aspect-[4/3] text-c5">
                 <div className='absolute flex gap-1 bg-white rounded-tl-md bottom-0 right-0 p-2 border-t border-r border-l border-c6'>
                 <JavaScriptIcon dimensions={dimensions}/>
                 <ReactIcon dimensions={dimensions}/>
-                <SequelizeIcon dimensions={dimensions}/>
                 <ExpressIcon dimensions={dimensions}/>
+                <SequelizeIcon dimensions={dimensions}/>
+                <PostgreSQLIcon dimensions={dimensions}/>
                 </div>
                 {showLinks ?
                 <div className='absolute bg-white bg-opacity-80 h-full w-full'>
@@ -51,8 +53,8 @@ export default function MyPlates () {
                 }
             </div>
             <div className='bg-c5 p-2'>
-                <div>PERN Stack</div>
-                <div>Full CRUD</div>
+                <div>Relational model database with CRUD</div>
+                <div>Full stack web application</div>
             </div>
         </div>
     )

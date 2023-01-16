@@ -47,10 +47,9 @@ export default function Bhere () {
                 : null
                 }
             </div>
-            <div className='bg-c5 p-2 grid grid-cols-2'>
-                <div>Utilizing 3rd  party APIs</div>
-                <div>React Router</div>
-                <div>Sumtin</div>
+            <div className='bg-c5 p-2'>
+                <div>Rendes data from 3rd party APIs</div>
+                <div>React Router navigaton</div>
             </div>
         </div>
     )

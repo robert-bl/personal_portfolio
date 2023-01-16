@@ -2,6 +2,7 @@ import JavaScriptIcon from "../SVGs/JavaScript"
 import ReactIcon from "../SVGs/React"
 import SequelizeIcon from "../SVGs/Sequelize"
 import ExpressIcon from "../SVGs/Express"
+import PostgreSQLIcon from "../SVGs/PostgreSQL"
 import TailwindIcon from "../SVGs/Tailwind"
 import { AiOutlineLink, AiOutlineGithub } from "react-icons/ai"
 
@@ -21,14 +22,15 @@ export default function PakRat () {
         <div className="w-full shadow-2xl hover:scale-105 duration-300" onClick={toggleLinks}>
             <div className='bg-c5 p-2'>
                 <div className='text-xl font-serif'>PakRat</div>
-                <div>Packing list app</div>
+                <div>Create, save, and use packing lists for your trips</div>
             </div>
             <div className="relative bg-pakrat bg-contain bg-bottom aspect-[4/3] text-c5">
                 <div className='absolute flex gap-1 bg-white rounded-tl-md bottom-0 right-0 p-2 border-t border-r border-l border-c6'>
                     <JavaScriptIcon dimensions={dimensions}/>
                     <ReactIcon dimensions={dimensions}/>
-                    <SequelizeIcon dimensions={dimensions}/>
                     <ExpressIcon dimensions={dimensions}/>
+                    <SequelizeIcon dimensions={dimensions}/>
+                    <PostgreSQLIcon dimensions={dimensions}/>
                     <TailwindIcon dimensions={dimensions}/>
                     </div>
                 {showLinks ?
@@ -53,7 +55,7 @@ export default function PakRat () {
             </div>
             <div className='bg-c5 p-2'>
                 <div>Bundled axios API calls</div>
-                <div>Dynamic Form and Rendering</div>
+                <div>JWT user auth</div>
             </div>
         </div>
     )

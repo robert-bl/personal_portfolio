@@ -16,12 +16,12 @@ export default function Bhere () {
     let dimensions = '30px'
 
     return (
-        <div className="w-full shadow-2xl hover:scale-105 duration-300" onClick={toggleLinks}>
+        <div className="w-full shadow-2xl hover:scale-105 duration-300 border-2 border-drkgry" onClick={toggleLinks}>
             <div className='bg-drkgry text-white p-2'>
                 <div className='text-xl font-serif'>B{'('}HERE{')'}</div>
                 <div>App for finding breweres in your area</div>
             </div>
-            <div className="relative bg-bhere bg-bottom aspect-[4/3] text-drkgry">
+            <div className="relative bg-bhere bg-contain aspect-[4/3] text-drkgry">
                 <div className='absolute flex gap-1 bg-white rounded-tl-md bottom-0 right-0 p-2'>
                 <JavaScriptIcon dimensions={dimensions}/>
                 <ReactIcon dimensions={dimensions}/>

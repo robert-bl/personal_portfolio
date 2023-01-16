@@ -16,9 +16,9 @@ export default function SnekSnak () {
     let dimensions = '30px'
 
     return (
-        <div className="w-full shadow-2xl hover:scale-105 duration-300" onClick={toggleLinks}>
-            <div className='bg-drkgry text-lit p-2'>
-                <div className='text-xl'>SnekSnack</div>
+        <div className="w-full shadow-2xl hover:scale-105 duration-300 border-2 border-drkgry" onClick={toggleLinks}>
+            <div className='bg-drkgry text-white p-2'>
+                <div className='text-xl font-serif'>SnekSnack</div>
                 <div>Snake browser game</div>
             </div>
             <div className="relative bg-sneksnak bg-contain bg-bottom aspect-[4/3] text-drkgry">

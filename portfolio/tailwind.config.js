@@ -6,9 +6,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'sneksnak': "url('/src/assets/sneksnak.png')",
-        'bhere': "url('/src/assets/bhere.png')",
-        'pakrat': "url('/src/assets/pakrat.png')",
+        'sneksnak': "url('/src/assets/sneksnack-scale.png')",
+        'bhere': "url('/src/assets/bhere-scale.png')",
+        'myplates': "url('/src/assets/myplates-scale.png')",
+        'pakrat': "url('/src/assets/pakrat-scale.png')",
         'prof': "url('/src/assets/prof.png')"
       },
       colors: {

@@ -22,7 +22,7 @@ export default function Bhere () {
                 <div>Find craft breweres in your area</div>
             </div>
             <div className="relative bg-bhere bg-contain aspect-[4/3] text-c5">
-                <div className='absolute flex gap-1 bg-white rounded-tl-md bottom-0 right-0 p-2 border-t border-r border-l border-c6'>
+                <div className='absolute flex gap-1 bg-white rounded-tl-md bottom-0 right-0 p-2 border-t-2 border-r-2 border-l-2 border-c6'>
                 <JavaScriptIcon dimensions={dimensions}/>
                 <ReactIcon dimensions={dimensions}/>
                 <CSSIcon dimensions={dimensions}/>

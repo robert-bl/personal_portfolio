@@ -25,7 +25,7 @@ export default function MyPlates () {
                 <div>Post, find, and review recipes</div>
             </div>
             <div className="relative bg-myplates bg-contain bg-bottom bg-no-repeat aspect-[4/3] text-c5">
-                <div className='absolute flex gap-1 bg-white rounded-tl-md bottom-0 right-0 p-2 border-t border-r border-l border-c6'>
+                <div className='absolute flex gap-1 bg-white rounded-tl-md bottom-0 right-0 p-2 border-t-2 border-r-2 border-l-2 border-c6'>
                 <JavaScriptIcon dimensions={dimensions}/>
                 <ReactIcon dimensions={dimensions}/>
                 <ExpressIcon dimensions={dimensions}/>

@@ -25,7 +25,7 @@ export default function PakRat () {
                 <div>Create, save, and use packing lists for your trips</div>
             </div>
             <div className="relative bg-pakrat bg-contain bg-bottom aspect-[4/3] text-c5">
-                <div className='absolute flex gap-1 bg-white rounded-tl-md bottom-0 right-0 p-2 border-t border-r border-l border-c6'>
+                <div className='absolute flex gap-1 bg-white rounded-tl-md bottom-0 right-0 p-2 border-t-2 border-r-2 border-l-2 border-c6'>
                     <JavaScriptIcon dimensions={dimensions}/>
                     <ReactIcon dimensions={dimensions}/>
                     <ExpressIcon dimensions={dimensions}/>

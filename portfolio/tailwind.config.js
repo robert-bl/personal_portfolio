@@ -30,13 +30,13 @@ module.exports = {
                 //card
                 c2: "#FFFFFF",
                 //background
-                c3: "#DFE0DF",
-                //grad start
-                c4: "#7E919E",
+                c3: "#BDC7DA",
+                //highight
+                c4: "#6F7788",
                 //header
-                c5: "#2F4858",
+                c5: "#365984",
                 //border
-                c6: "#2F4858"
+                c6: "#365984"
 
       },
       fontFamily: {

@@ -8,7 +8,7 @@ export default function AboutMe () {
                 <div className="bg-c5 p-4 my-4 mx-4 text-center">
                     <div className="text-2xl">Robert Buskirk-Lechner</div>
                     <div>Full Stack Developer</div>
-                    <div>JavaScript - Python - React - PostgreSQL</div>
+                    <div>JavaScript - Python - React</div>
                 </div>
                 <div className="bg-prof bg-cover bg-center w-10/12 md:w-2/5 mx-auto aspect-square rounded-full border-4 border-c4"></div>
                 <div className="bg-c5 text-center p-4 m-4 italic">I am a software engineer who brings over a decade of experience in logistics and project management from the brewing and outdoor education fields. I am passionate about improving outcomes and users' experiences by building complex systems using thorough, collaborative, detail oriented approaches.</div>

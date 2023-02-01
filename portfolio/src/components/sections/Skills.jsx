@@ -56,7 +56,7 @@ export default function Skills () {
                     </div>
                 </div>
                 <div className="text-center">
-                <div className="mt-8 m-4 py-2 bg-c5">Libraries and Frameworks</div>
+                <div className="mt-8 m-4 py-2 bg-c5">Frameworks and Libraries</div>
                     <div className="flex gap-4 flex-wrap justify-center p-1">
                         <div className={hoverWrapper}>
                             <div className={nameHover}>PostgreSQL</div>

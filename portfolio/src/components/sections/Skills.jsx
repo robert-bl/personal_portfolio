@@ -11,6 +11,7 @@ import ReactIcon from "../SVGs/React"
 import SequelizeIcon from "../SVGs/Sequelize"
 import PostgreSQLIcon from "../SVGs/PostgreSQL"
 import TailwindIcon from "../SVGs/Tailwind"
+import TypeScriptIcon from "../SVGs/TypeScript"
 import VSCodeIcon from "../SVGs/VSCode"
 
 
@@ -35,6 +36,10 @@ export default function Skills () {
                         <div className={hoverWrapper}>
                             <div className={nameHover}>JavaScript</div>
                             <JavaScriptIcon dimensions={dimensions}/>
+                        </div>
+                        <div className={hoverWrapper}>
+                            <div className={nameHover}>TypeScript</div>
+                            <TypeScriptIcon dimensions={dimensions}/>
                         </div>
                         <div className={hoverWrapper}>
                             <div className={nameHover}>Python</div>

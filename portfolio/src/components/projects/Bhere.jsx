@@ -48,8 +48,8 @@ export default function Bhere () {
                 }
             </div>
             <div className='bg-c5 p-2'>
-                <div>• Rendes data from Open Brewery DB and SerpWow 3rd-party APIs</div>
-                <div>• React Router naviagation and forms to facilitate database searches</div>
+                <div>• Renders data from Open Brewery DB and SerpWow 3rd-party APIs</div>
+                <div>• React Router navigation and forms to facilitate database searches</div>
             </div>
         </div>
     )

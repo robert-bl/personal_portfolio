@@ -54,7 +54,7 @@ export default function PakRat () {
                 }
             </div>
             <div className='bg-c5 p-2'>
-                <div>• React frint-end with functional components rendering dynamic forms</div>
+                <div>• React front-end with functional components rendering dynamic forms</div>
                 <div>• Backend with custom express controllers designed to reduce API traffic</div>
             </div>
         </div>

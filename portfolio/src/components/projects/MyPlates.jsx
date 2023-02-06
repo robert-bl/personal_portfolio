@@ -53,7 +53,7 @@ export default function MyPlates () {
                 }
             </div>
             <div className='bg-c5 p-2'>
-                <div>• React front-end with router, forms, and user authentication</div>
+                <div>• React front-end with router, forms, and JWT user authentication</div>
                 <div>• Full CRUD backend with RESTful API and relational Postgres database</div>
             </div>
         </div>

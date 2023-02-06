@@ -16,10 +16,10 @@ export default function Bhere () {
     let dimensions = '30px'
 
     return (
-        <div className="w-full shadow-2xl hover:scale-105 duration-300" onClick={toggleLinks}>
+        <div className="w-full shadow-2xl hover:scale-105 duration-300 bg-c5" onClick={toggleLinks}>
             <div className='bg-c5 p-2'>
                 <div className='text-xl font-serif'>B{'('}HERE{')'}</div>
-                <div>Find craft breweres in your area</div>
+                <div>Find craft breweries in your area</div>
             </div>
             <div className="relative bg-bhere bg-contain aspect-[4/3] text-c5">
                 <div className='absolute flex gap-1 bg-white rounded-tl-md bottom-0 right-0 p-2 border-t-2 border-r-2 border-l-2 border-c6'>
@@ -48,8 +48,8 @@ export default function Bhere () {
                 }
             </div>
             <div className='bg-c5 p-2'>
-                <div>Rendes data from 3rd party APIs</div>
-                <div>React Router navigaton</div>
+                <div>• Rendes data from Open Brewery DB and SerpWow 3rd-party APIs</div>
+                <div>• React Router naviagation and forms to facilitate database searches</div>
             </div>
         </div>
     )

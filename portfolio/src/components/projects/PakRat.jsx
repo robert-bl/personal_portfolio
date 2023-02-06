@@ -19,7 +19,7 @@ export default function PakRat () {
     let dimensions = '30px'
 
     return (
-        <div className="w-full shadow-2xl hover:scale-105 duration-300" onClick={toggleLinks}>
+        <div className="w-full shadow-2xl hover:scale-105 duration-300 bg-c5" onClick={toggleLinks}>
             <div className='bg-c5 p-2'>
                 <div className='text-xl font-serif'>PakRat</div>
                 <div>Create, save, and use packing lists for your trips</div>
@@ -54,8 +54,8 @@ export default function PakRat () {
                 }
             </div>
             <div className='bg-c5 p-2'>
-                <div>Bundled axios API calls</div>
-                <div>JWT user auth</div>
+                <div>• React frint-end with functional components rendering dynamic forms</div>
+                <div>• Backend with custom express controllers designed to reduce API traffic</div>
             </div>
         </div>
     )

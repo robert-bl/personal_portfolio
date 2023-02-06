@@ -19,7 +19,7 @@ export default function MyPlates () {
     let dimensions = '30px'
 
     return (
-        <div className="w-full shadow-2xl hover:scale-105 duration-300" onClick={toggleLinks}>
+        <div className="w-full shadow-2xl hover:scale-105 duration-300 bg-c5" onClick={toggleLinks}>
             <div className='bg-c5 p-2'>
                 <div className='text-xl font-serif'>MyPlates</div>
                 <div>Post, find, and review recipes</div>
@@ -53,8 +53,8 @@ export default function MyPlates () {
                 }
             </div>
             <div className='bg-c5 p-2'>
-                <div>Relational model database with CRUD</div>
-                <div>Full stack web application</div>
+                <div>• React front-end with router, forms, and user authentication</div>
+                <div>• Full CRUD backend with RESTful API and relational Postgres database</div>
             </div>
         </div>
     )

@@ -16,10 +16,10 @@ export default function SnekSnak () {
     let dimensions = '30px'
 
     return (
-        <div className="w-full shadow-2xl hover:scale-105 duration-300" onClick={toggleLinks}>
+        <div className="w-full shadow-2xl hover:scale-105 duration-300 bg-c5" onClick={toggleLinks}>
             <div className='bg-c5 p-2'>
                 <div className='text-xl font-serif'>SnekSnack</div>
-                <div>Snake browser game with custom new rules</div>
+                <div>Snake browser game with custom game rules</div>
             </div>
             <div className="relative bg-sneksnak bg-contain bg-bottom aspect-[4/3] text-c5">
                 <div className='absolute flex gap-1 bg-white rounded-tl-md bottom-0 right-0 p-2 border-t-2 border-r-2 border-l-2 border-c6'>
@@ -48,8 +48,8 @@ export default function SnekSnak () {
                 }
             </div>
             <div className='bg-c5 p-2'>
-                <div>Game Logic</div>
-                <div>DOM Manipulation</div>
+                <div>• Real-time gameplay rendered with vanilla JavaScript DOM manipulation</div>
+                <div>• 2-D spacial mapping using linearly generated elements</div>
             </div>
         </div>
     )

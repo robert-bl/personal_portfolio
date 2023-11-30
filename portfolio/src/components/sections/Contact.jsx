@@ -13,9 +13,9 @@ export default function Contact () {
             <div className="font-serif bg-c5 text-2xl p-4 mb-6">Connect</div>
                 <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 m-8 text-black">
                     <div className="flex-col mb-6">
-                        <a href="https://www.linkedin.com/in/robert-buskirk-lechner/" target='_blank'>
+                        <a href="https://www.linkedin.com/in/robert-bl/" target='_blank'>
                             <LinkedInIcon dimensions={dimensions} className='mx-auto'/>
-                        <div>linkedin.com/in/robert-buskirk-lechner</div>
+                        <div>linkedin.com/in/robert-bl</div>
                         </a>
                     </div>
                     <div className="flex-col mb-6">
